@@ -1,3 +1,4 @@
+/* *****CSS FOR ALL PAGES***** */
 .nav-item {
   margin: 0px 60px;
   font-size: x-large;
@@ -8,17 +9,54 @@
   margin: 0px 11px;
 }
 
+body {
+  background-image: radial-gradient(
+    rgba(219, 214, 214, 0.906),
+    grey,
+    rgba(128, 128, 128, 0.404)
+  );
+}
+
 footer {
-    background-image: linear-gradient(rgba(115, 115, 247, 0.5), white, blue);
-    padding: 5px 20px;
-    font-weight: bolder;
-    font-size: x-large;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #copyRight {
-    font-size: 12px;
-    margin-top: 10px;
-  }
-  
+  background-image: linear-gradient(grey, rgba(219, 214, 214, 0.906), blue);
+  padding: 5px 20px;
+  font-weight: bolder;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+}
+
+#copyRight {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+#new {
+  font-weight: bolder;
+  font-size: 2.1rem;
+  background: linear-gradient(grey, beige, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  margin: 0px 10px;
+}
+
+.container div {
+  margin: 20px;
+}
+
+.intro {
+  color: blue;
+  background-color: beige;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 5px;
+}
