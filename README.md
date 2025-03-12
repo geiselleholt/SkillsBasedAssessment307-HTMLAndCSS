@@ -2,6 +2,7 @@
 
 ## Acknowledgements:
 -I used Bootstrap code snippets and made them my own
+
 -I used Wikipedia for content
 
 ## Here are the 3 wireframes I created:

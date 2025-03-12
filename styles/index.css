@@ -1,9 +1,24 @@
-
 .nav-item {
-    margin: 0px 80px;
-    font-size: x-large;
+  margin: 0px 60px;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 .wonderGif {
-    margin: 0px 11px;
+  margin: 0px 11px;
 }
+
+footer {
+    background-image: linear-gradient(rgba(115, 115, 247, 0.5), white, blue);
+    padding: 5px 20px;
+    font-weight: bolder;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #copyRight {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
