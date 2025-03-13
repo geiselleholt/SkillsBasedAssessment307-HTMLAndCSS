@@ -23,6 +23,61 @@
       href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Mystery+Quest&family=Spicy+Rice&display=swap"
       rel="stylesheet"
     />
+    <style>
+      img {
+        height: 50px;
+        margin: 10px;
+      }
+      .submit {
+        background-color: darkblue;
+        color: aliceblue;
+        font-weight: bold;
+        font-family: "Mystery Quest", system-ui;
+      }
+
+      .submit:hover {
+        transform: scale(1.2);
+        transition: transform 2s;
+        color: darkblue;
+        background-color: aliceblue;
+      }
+      .upperSectionContact {
+        margin: auto;
+        border: 2rem black;
+        background-color: cornflowerblue;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px gray;
+      }
+      .lowerSectionContact {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #rememberMeCheckbox,
+      #dropDown {
+        margin-left: 10px;
+      }
+      .email,
+      .connect {
+        margin: 40px;
+        text-align: center;
+        background-color: cornflowerblue;
+        padding: 20px;
+        align-content: center;
+        font-family: "Mystery Quest", system-ui;
+        box-shadow: 5px 5px 5px gray;
+      }
+      .input-group {
+        display: flex;
+        justify-content: center;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-primary sticky-top">
@@ -106,7 +161,6 @@
 
     <h2 class="title">Sign Up For Our Newsletter</h2>
 
-    <!-- <div class="container"> -->
     <!-- Newsletter Sign Up  -->
     <div class="row">
       <div class="col">
@@ -174,7 +228,6 @@
           <div class="input-group mb-3">
             I am not a robot
             <input type="checkbox" name="rememberMe" id="rememberMeCheckbox" />
-            <!-- <label for="rememberMe" id="rememberMeLabel"> Remember Me</label> -->
           </div>
           <div class="input-group mb-3">
             <input type="submit" name="signUp" class="submit" value="Sign Up" />
@@ -183,115 +236,62 @@
       </div>
     </div>
     <div class="lowerSectionContact">
-    <!-- Send Email -->
-    <form class="email" style="width: 30rem">
-      <div class="input-group mb-3">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="email"
-          aria-label="Username"
-        />
-        <span class="input-group-text">@</span>
-        <input
-          type="text"
-          class="form-control"
-          placeholder="emailserviceprovider.com"
-          aria-label="Email Service Provider"
-        />
-      </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">Message</span>
-        <textarea class="form-control" aria-label="With textarea" placeholder="LLorem ipsum dolor sit amet consectetur adipisicing elit.
+      <!-- Send Email -->
+      <div class="email" style="width: 30rem">
+        <form>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="email"
+              aria-label="Username"
+            />
+            <span class="input-group-text">@</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="emailserviceprovider.com"
+              aria-label="Email Service Provider"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Message</span>
+            <textarea
+              class="form-control"
+              aria-label="With textarea"
+              placeholder="LLorem ipsum dolor sit amet consectetur adipisicing elit.
         Eveniet, qui est ipsa laudantium delectus, eos perferendis,
         suscipit nesciunt magnam assumenda nemo eum blanditiis. Eius,
-        odit?"></textarea>
+        odit?"
+            ></textarea>
+          </div>
+          <div class="input-group mb-3">
+            <input type="submit" name="signUp" class="submit" value="Send" />
+          </div>
+        </form>
       </div>
-      <div class="input-group mb-3">
-        <input type="submit" name="signUp" class="submit" value="Sign Up" />
-      </div>
-    </form>
-    <!-- Carousel  -->
-    <div class="col">
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="../pages/christ.html">
-              Christ the Redeemer
-              <img
-                src="../images/christ.png"
-                class="d-block w-100"
-                alt="Christ the Redeemer"
-              />
+      <!-- Social Media  -->
+      <div class="connect">
+        <p>Connect with Us on:</p>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/">
+              <img src="../images/facebookLogo.png" alt="facebook logo" />
             </a>
-          </div>
-          <div class="carousel-item">
-            Taj Mahal
-            <img
-              src="../images/tajMahal.png"
-              class="d-block w-100"
-              alt="Taj Mahal"
-            />
-          </div>
-          <div class="carousel-item">
-            Machu Pichu
-            <img
-              src="../images/machu.png"
-              class="d-block w-100"
-              alt="Machu Pichu"
-            />
-          </div>
-          <div class="carousel-item">
-            Colosseum
-            <img
-              src="../images/colosseum.png"
-              class="d-block w-100"
-              alt="Colosseum"
-            />
-          </div>
-          <div class="carousel-item">
-            Great Wall
-            <img
-              src="../images/greatWall.png"
-              class="d-block w-100"
-              alt="Great Wall"
-            />
-          </div>
-          <div class="carousel-item">
-            Petra
-            <img src="../images/petra.png" class="d-block w-100" alt="Petra" />
-          </div>
-          <div class="carousel-item">
-            Chichen Itza
-            <img
-              src="../images/chitchen.png"
-              class="d-block w-100"
-              alt="Chichen Itza"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          </li>
+          <li>
+            <a href="https://www.google.com/">
+              <img src="../images/googleLogo.png" alt="google logo" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.microsoft.com/">
+              <img src="../images/microsoftLogo.png" alt="microsoft logo" />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-    </div>
-    <!-- </div> -->
 
     <footer>
       <p id="copyRight">

@@ -23,6 +23,36 @@
       href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Mystery+Quest&family=Spicy+Rice&display=swap"
       rel="stylesheet"
     />
+    <style>
+      #carousel a {
+        font-size: large;
+        font-weight: bold;
+        font-family: "Mystery Quest", system-ui;
+      }
+      #new {
+        font-weight: bolder;
+        font-size: 2.5rem;
+        background: linear-gradient(grey, cornflowerblue, darkblue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: none;
+        margin: 0px 10px;
+      }
+      .intro {
+        color: darkblue;
+        background-color: darkgray;
+        font-weight: bold;
+        border-radius: 15px;
+        padding: 5px;
+        font-family: "Mystery Quest", system-ui;
+        box-shadow: 5px 5px 5px grey;
+      }
+      .table {
+        font-family: "Mystery Quest", system-ui;
+        border: 5px solid grey;
+        box-shadow: 5px 5px 5px grey;
+      }
+    </style>
   </head>
 
   <body>
@@ -48,9 +78,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navBar">
-            <!-- <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li> -->
             <li class="nav-item"></li>
             <li class="nav-item dropdown">
               <a
@@ -190,7 +217,7 @@
         </div>
         <!-- Carousel  -->
         <div class="col">
-          <div id="carouselExample" class="carousel slide">
+          <div id="carousel" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <a href="../pages/christ.html">
@@ -254,7 +281,7 @@
             <button
               class="carousel-control-prev"
               type="button"
-              data-bs-target="#carouselExample"
+              data-bs-target="#carousel"
               data-bs-slide="prev"
             >
               <span
@@ -266,7 +293,7 @@
             <button
               class="carousel-control-next"
               type="button"
-              data-bs-target="#carouselExample"
+              data-bs-target="#carousel"
               data-bs-slide="next"
             >
               <span
