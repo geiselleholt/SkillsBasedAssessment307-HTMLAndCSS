@@ -17,6 +17,7 @@ body {
 nav {
   box-shadow: 5px 5px 5px gray;
   font-family: "Mystery Quest", system-ui;
+  border-radius: 5px;
 }
 
 .nav-item {
@@ -64,19 +65,47 @@ a:hover {
 }
 
 footer {
-  background-image: linear-gradient(grey, rgba(219, 214, 214, 0.906), darkblue);
+  /* background-image: linear-gradient(grey, rgba(219, 214, 214, 0.906), darkblue); */
+  background-color:rgba(219, 214, 214, 0.906);
   padding: 5px 20px;
   font-weight: bolder;
   font-size: x-large;
   display: flex;
   justify-content: space-between;
   font-family: "Mystery Quest", system-ui;
+  box-shadow: 5px -5px 5px gray;
+  border-radius: 10px;
 }
 
 #copyRight {
   font-size: 12px;
-  margin-top: 10px;
+  margin-top: 20px;
+
 }
 
+/* .connectFooter {
+  display: flex;
+  font-size: medium;
+} */
 
+.connectFooter img {
+  width: 40px;
+  box-shadow: 5px 5px 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  width: 200px;
+}
+
+.connect img {
+  box-shadow: 5px 5px 5px;
+}
+.connectFooter img:hover {
+  transform: rotate(359deg);
+  transition: transform 2s;
+}
 /* ****Did additional Internal Styling for Index and Contact pages *** */
