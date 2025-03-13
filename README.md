@@ -1,4 +1,4 @@
-### Welcome to my website on the Seven New Wonders of the World! I made this website for my Per Scholas bootcamp Skills Based Assessment on HTML and CSS.
+### Welcome to my website on the New Seven Wonders of the World! I made this website for my Per Scholas bootcamp Skills Based Assessment on HTML and CSS.
 
 ### Acknowledgements:
 -I used Bootstrap code snippets and made them my own
