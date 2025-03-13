@@ -17,6 +17,12 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Mystery+Quest&family=Spicy+Rice&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-primary sticky-top">
@@ -24,8 +30,8 @@
         <img
           src="../images/seven.gif"
           alt="Seven Gif"
-          width="150"
-          height="75"
+          width="100"
+          height="50"
           class="d-inline-block align-text-top"
         />
         <button
@@ -92,15 +98,200 @@
       <img
         src="../images/wonder.gif"
         alt="Wonder gif"
-        width="150"
-        height="75"
+        width="100"
+        height="50"
         class="wonderGif"
       />
     </nav>
 
-    <h2 class="title">Thanks for visiting 😊 Keep in touch 🤙</h2>
+    <h2 class="title">Sign Up For Our Newsletter</h2>
 
+    <!-- <div class="container"> -->
+    <!-- Newsletter Sign Up  -->
+    <div class="row">
+      <div class="col">
+        <form class="upperSectionContact" style="width: 50rem">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="First Name"
+              aria-label=" Last Name"
+              aria-describedby="basic-addon1"
+            />
+          </div>
 
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Last Name"
+              aria-label="Last Name"
+              aria-describedby="basic-addon2"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="email"
+              aria-label="Username"
+            />
+            <span class="input-group-text">@</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="emailserviceprovider.com"
+              aria-label="Email Service Provider"
+            />
+          </div>
+          <div class="input-group mb-3">
+            How did you hear about us?
+            <select id="dropDown">
+              <option value="friendFamily">Friend or Family</option>
+              <option value="google">Google</option>
+              <option value="facebook">Facebook</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="input-group mb-3">
+            <ul id="gender">
+              <li><p>Gender</p></li>
+              <li>
+                <label>
+                  <input type="radio" name="gender" id="female" />
+                  Female
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="gender" id="male" />
+                  Male
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="input-group mb-3">
+            I am not a robot
+            <input type="checkbox" name="rememberMe" id="rememberMeCheckbox" />
+            <!-- <label for="rememberMe" id="rememberMeLabel"> Remember Me</label> -->
+          </div>
+          <div class="input-group mb-3">
+            <input type="submit" name="signUp" class="submit" value="Sign Up" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="lowerSectionContact">
+    <!-- Send Email -->
+    <form class="email" style="width: 30rem">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="email"
+          aria-label="Username"
+        />
+        <span class="input-group-text">@</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="emailserviceprovider.com"
+          aria-label="Email Service Provider"
+        />
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Message</span>
+        <textarea class="form-control" aria-label="With textarea" placeholder="LLorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eveniet, qui est ipsa laudantium delectus, eos perferendis,
+        suscipit nesciunt magnam assumenda nemo eum blanditiis. Eius,
+        odit?"></textarea>
+      </div>
+      <div class="input-group mb-3">
+        <input type="submit" name="signUp" class="submit" value="Sign Up" />
+      </div>
+    </form>
+    <!-- Carousel  -->
+    <div class="col">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="../pages/christ.html">
+              Christ the Redeemer
+              <img
+                src="../images/christ.png"
+                class="d-block w-100"
+                alt="Christ the Redeemer"
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            Taj Mahal
+            <img
+              src="../images/tajMahal.png"
+              class="d-block w-100"
+              alt="Taj Mahal"
+            />
+          </div>
+          <div class="carousel-item">
+            Machu Pichu
+            <img
+              src="../images/machu.png"
+              class="d-block w-100"
+              alt="Machu Pichu"
+            />
+          </div>
+          <div class="carousel-item">
+            Colosseum
+            <img
+              src="../images/colosseum.png"
+              class="d-block w-100"
+              alt="Colosseum"
+            />
+          </div>
+          <div class="carousel-item">
+            Great Wall
+            <img
+              src="../images/greatWall.png"
+              class="d-block w-100"
+              alt="Great Wall"
+            />
+          </div>
+          <div class="carousel-item">
+            Petra
+            <img src="../images/petra.png" class="d-block w-100" alt="Petra" />
+          </div>
+          <div class="carousel-item">
+            Chichen Itza
+            <img
+              src="../images/chitchen.png"
+              class="d-block w-100"
+              alt="Chichen Itza"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    <!-- </div> -->
 
     <footer>
       <p id="copyRight">
@@ -109,7 +300,7 @@
       </p>
 
       <img
-        src="../images/socialStudies.gif"
+        src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazZ4anA4czhqNGFpcHVya2FneXprcDM2ZjVxempkazJ1azFqY24xeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gK6Dgry1IyNauwnKWI/giphy.gif"
         alt="Social Studies Gif"
         width="100"
         height="50"
@@ -122,6 +313,5 @@
         >Home</a
       >
     </footer>
-
   </body>
 </html>

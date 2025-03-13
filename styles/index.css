@@ -1,8 +1,24 @@
 /* *****CSS FOR ALL PAGES***** */
+.mystery-quest-regular {
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .nav-item {
   margin: 0px 60px;
   font-size: x-large;
   font-weight: bolder;
+}
+nav {
+  box-shadow: 5px 5px 5px gray;
+  font-family: "Mystery Quest", system-ui;
+}
+
+a:hover {
+  transform: scale(1.2);
+  transition: transform 2s;
+  color: red;
 }
 
 .wonderGif {
@@ -11,19 +27,20 @@
 
 body {
   background-image: radial-gradient(
+    rgba(128, 128, 128, 0.404),
     rgba(219, 214, 214, 0.906),
-    grey,
-    rgba(128, 128, 128, 0.404)
+    grey
   );
 }
 
 footer {
-  background-image: linear-gradient(grey, rgba(219, 214, 214, 0.906), blue);
+  background-image: linear-gradient(grey, rgba(219, 214, 214, 0.906), darkblue);
   padding: 5px 20px;
   font-weight: bolder;
   font-size: x-large;
   display: flex;
   justify-content: space-between;
+  font-family: "Mystery Quest", system-ui;
 }
 
 #copyRight {
@@ -34,29 +51,96 @@ footer {
 .title {
   display: flex;
   justify-content: center;
-  color: blue;
+  color: darkblue;
   font-weight: bolder;
-  margin-top: 20px;
+  margin-top: 30px;
+  font-family: "Mystery Quest", system-ui;
 }
 
 #new {
   font-weight: bolder;
-  font-size: 2.1rem;
-  background: linear-gradient(grey, beige, blue);
+  font-size: 2.5rem;
+  background: linear-gradient(grey, cornflowerblue, darkblue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: none;
   margin: 0px 10px;
+
 }
 
-.container div {
-  margin: 20px;
+.upperSection div {
+  margin: auto;
+  margin-top: 10px;
+  color: darkblue;
+  font-family: "Mystery Quest", system-ui;
+}
+
+.upperSectionContact {
+  margin: auto;
+  border: 2rem black;
+  background-color: cornflowerblue;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  font-family: "Mystery Quest", system-ui;
+}
+
+.lowerSectionContact {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .intro {
-  color: blue;
-  background-color: beige;
+  color: darkblue;
+  background-color: darkgray;
   font-weight: bold;
   border-radius: 15px;
   padding: 5px;
+  font-family: "Mystery Quest", system-ui;
+}
+
+.lowerSection {
+  display: flex;
+  justify-content: center;
+  font-family: "Mystery Quest", system-ui;
+}
+
+.lowerSection .card {
+  margin: 50px;
+  text-align: center;
+  color: darkblue;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.submit {
+  background-color: darkblue;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: "Mystery Quest", system-ui;
+}
+
+.submit:hover {
+  transform: scale(1.2);
+  transition: transform 2s;
+  color: darkblue;
+  background-color: aliceblue;
+}
+
+#rememberMeCheckbox, #dropDown {
+  margin-left: 10px;
+}
+
+.email {
+  margin: 40px;
 }
